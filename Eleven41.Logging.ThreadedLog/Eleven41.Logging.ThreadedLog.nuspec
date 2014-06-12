@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Eleven41.Logging.ThreadedLog</id>
+    <version>1.0.0</version>
+    <authors>Eleven41 Software</authors>
+    <owners>Eleven41 Software</owners>
+    <licenseUrl>https://github.com/eleven41/Eleven41.Logging.ThreadedLog/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/eleven41/Eleven41.Logging.ThreadedLog</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Eleven41.Logging.ThreadedLog is an implementation of Eleven41.Logging.ILog to send messages from a secondary thread.</description>
+    <releaseNotes>Initial revision.</releaseNotes>
+    <copyright>Copyright (C) 2014, Eleven41 Software Inc.</copyright>
+		<tags>logging</tags>
+    <dependencies>
+      <dependency id="Eleven41.Logging" version="1.3.1" />
+    </dependencies>
+  </metadata>
+</package>
