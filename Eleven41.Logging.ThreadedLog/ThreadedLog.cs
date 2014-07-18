@@ -98,8 +98,12 @@ namespace Eleven41.Logging
 				_data = data;
 				if (_data == null)
 					_data = new Dictionary<string, object>();
+
 				_messageFormat = messageFormat;
 				_args = args;
+
+				// Set this thread
+				_data["thread"] = System.Threading.Thread.CurrentThread.GetHashCode();
 			}
 
 			/// <summary>
