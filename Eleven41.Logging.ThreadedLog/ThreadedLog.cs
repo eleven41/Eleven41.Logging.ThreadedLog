@@ -95,9 +95,12 @@ namespace Eleven41.Logging
 				_insertionDate = DateTime.UtcNow; // For bookkeeping
 				_date = date;
 				_level = level;
-				_data = data;
-				if (_data == null)
+
+				// Make our own copy of the data
+				if (data == null)
 					_data = new Dictionary<string, object>();
+				else
+					_data = new Dictionary<string, object>(data);
 
 				_messageFormat = messageFormat;
 				_args = args;
@@ -172,6 +175,7 @@ namespace Eleven41.Logging
 
 			// Log the record
 			record.Log(_log);
+
 			return true;
 		}
 	}
