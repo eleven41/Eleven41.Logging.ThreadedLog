@@ -2,14 +2,14 @@
 <package >
   <metadata>
     <id>Eleven41.Logging.ThreadedLog</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <authors>Eleven41 Software</authors>
     <owners>Eleven41 Software</owners>
     <licenseUrl>https://github.com/eleven41/Eleven41.Logging.ThreadedLog/blob/master/LICENSE.md</licenseUrl>
     <projectUrl>https://github.com/eleven41/Eleven41.Logging.ThreadedLog</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Eleven41.Logging.ThreadedLog is an implementation of Eleven41.Logging.ILog to send messages from a secondary thread.</description>
-    <releaseNotes>Set the thread property when enqueuing the log entry.</releaseNotes>
+    <releaseNotes>Fixed issue #1.</releaseNotes>
     <copyright>Copyright (C) 2014, Eleven41 Software Inc.</copyright>
 		<tags>logging</tags>
     <dependencies>
