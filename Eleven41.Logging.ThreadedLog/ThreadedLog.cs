@@ -106,7 +106,7 @@ namespace Eleven41.Logging
 				_args = args;
 
 				// Set this thread
-				_data["thread"] = System.Threading.Thread.CurrentThread.GetHashCode();
+				_data["thread"] = System.Threading.Thread.CurrentThread.GetHashCode().ToString();
 			}
 
 			/// <summary>
