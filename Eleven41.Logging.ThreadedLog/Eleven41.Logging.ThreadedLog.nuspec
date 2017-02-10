@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Eleven41.Logging.ThreadedLog</id>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <authors>Eleven41 Software Inc.</authors>
     <owners>Eleven41 Software Inc.</owners>
     <licenseUrl>https://github.com/eleven41/Eleven41.Logging.ThreadedLog/blob/master/LICENSE.md</licenseUrl>
